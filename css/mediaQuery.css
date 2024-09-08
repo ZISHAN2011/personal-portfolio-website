@@ -1,0 +1,26 @@
+@media screen and (width <= 435px) {
+  .name-section p:first-child{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .name-section h1{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .skills-section{
+    flex-direction: column;
+  }
+  .left-side-contact{
+    /* min-width: 20vw; */
+    min-height: 20vh;
+  }
+  .right-side-contact{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (width <= 992) {
+  
+}
